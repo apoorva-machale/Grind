@@ -1,2 +1,21 @@
-venv
-__pycache__
+# ── Python ────────────────────────────────────────────────────────────────────
+venv/
+__pycache__/
+*.py[cod]
+.Python
+*.egg-info/
+
+# ── Environment / Secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+*.env
+
+# ── macOS / editor ────────────────────────────────────────────────────────────
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Moved to its own repo: github.com/apoorva-machale/recipe-recommender ───────
+recipe_recommender/
